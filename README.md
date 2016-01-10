@@ -1,11 +1,14 @@
 free-resources
 ============================
+## 前言
+此项目基于[free-programming-books](https://github.com/vhf/free-programming-books)，外加个人学习笔记，持续更新！
 
 ## 目录
 
 * [语言无关类](#语言无关类)
-  * [WEB服务器](#web服务器)
   * [数据库，见目录`/Database`](/Database)
+  * [设计模式，见目录`/Design-Patterns`](/Design-Patterns)
+  * [WEB服务器](#web服务器)
   * [Web](#web)
   * [大数据](#大数据)
   * [其它](#其它)
@@ -21,14 +24,13 @@ free-resources
   * [编译原理](#编译原理)
   * [编辑器](#编辑器)
   * [计算机图形学](#计算机图形学)
-  * [设计模式，见目录`/Design-Patterns`](/Design-Patterns)
   * [软件开发方法](#软件开发方法)
   * [项目相关](#项目相关)
   
 * [语言相关](#语言相关)
-  * [Android](#android)
-  * [AWK](#awk)
+  * [Linux Shell，见目录`Linux-Shell`](/Linux-Shell)
   * [C/C++](#cc)
+  * [Android](#android)
   * [CoffeeScript](#coffeescript)
   * [Dart](#dart)
   * [Elasticsearch](#elasticsearch)
@@ -36,7 +38,7 @@ free-resources
   * [Fortran](#fortran)
   * [Golang](#golang)
   * [Haskell](#haskell)
-  * [HTML / CSS](#html--css)
+  * [HTML/CSS](#html--css)
   * [HTTP](#http)
   * [iOS](#ios)
   * [Java](#java)
@@ -78,11 +80,6 @@ free-resources
 * [Apache 中文手册](http://works.jinbuguo.com/apache/menu22/index.html)
 * [Nginx开发从入门到精通](http://tengine.taobao.org/book/index.html) (淘宝团队出品)
 * [Nginx教程从入门到精通](http://www.ttlsa.com/nginx/nginx-stu-pdf/) (PDF版本，运维生存时间出品)
-
-
-### 编辑器
-
-* [exvim--vim 改良成IDE项目](http://exvim.github.io/docs-zh/intro/)
 
 
 ### Web
@@ -271,34 +268,12 @@ free-resources
 
 ## 语言相关
 
-### Android
-
-* [Android Design(中文版)](http://www.apkbus.com/design/index.html)
-* [Android6.0新特性详解](http://leanote.com/blog/post/561658f938f41126b2000298?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
-* [Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
-* [Android开发技术前线(android-tech-frontier)](https://github.com/bboyfeiyu/android-tech-frontier)
-* [Google Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/index.html)
-* Google Material Design 正體中文版 ([译本一](https://wcc723.gitbooks.io/google_design_translate/content/style-icons.html) [译本二](https://github.com/1sters/material_design_zh))
-* [Material Design 中文版](http://wiki.jikexueyuan.com/project/material-design/)
-* [Point-of-Android](https://github.com/FX-Max/Point-of-Android) Android 一些重要知识点解析整理
-
-
-### AWK
-
-* [awk中文指南](http://awk.readthedocs.org/en/latest/index.html)
-* [awk程序设计语言](https://github.com/wuzhouhui/awk)
-
-
-### C
+### C/C++
 
 * [C 语言常见问题集](http://c-faq-chn.sourceforge.net/ccfaq/ccfaq.html)
 * [C/C++ 学习教程](http://doc.lellansin.com)
 * [Linux C 编程一站式学习](http://docs.linuxtone.org/ebooks/C&CPP/c/)
 * [新概念 C 语言教程](https://github.com/limingth/NCCL)
-
-
-### C++
-
 * [100个gcc小技巧](https://github.com/hellogcc/100-gcc-tips/blob/master/src/index.md)
 * [100个gdb小技巧](https://github.com/hellogcc/100-gdb-tips/blob/master/src/index.md)
 * [C 语言编程透视](https://tinylab.gitbooks.io/cbook/content/)
@@ -318,6 +293,18 @@ free-resources
 * [像计算机科学家一样思考（C++版)](http://www.ituring.com.cn/book/1203) (《How To Think Like a Computer Scientist: C++ Version》中文版)
 * [简单易懂的C魔法](http://www.nowamagic.net/librarys/books/contents/c)
 * [跟我一起写Makefile(PDF)](http://scc.qibebt.cas.cn/docs/linux/base/%B8%FA%CE%D2%D2%BB%C6%F0%D0%B4Makefile-%B3%C2%F0%A9.pdf) (PDF)
+
+
+### Android
+
+* [Android Design(中文版)](http://www.apkbus.com/design/index.html)
+* [Android6.0新特性详解](http://leanote.com/blog/post/561658f938f41126b2000298?hmsr=toutiao.io&utm_medium=toutiao.io&utm_source=toutiao.io)
+* [Android学习之路](http://stormzhang.github.io/android/2014/07/07/learn-android-from-rookie/)
+* [Android开发技术前线(android-tech-frontier)](https://github.com/bboyfeiyu/android-tech-frontier)
+* [Google Android官方培训课程中文版](http://hukai.me/android-training-course-in-chinese/index.html)
+* Google Material Design 正體中文版 ([译本一](https://wcc723.gitbooks.io/google_design_translate/content/style-icons.html) [译本二](https://github.com/1sters/material_design_zh))
+* [Material Design 中文版](http://wiki.jikexueyuan.com/project/material-design/)
+* [Point-of-Android](https://github.com/FX-Max/Point-of-Android) Android 一些重要知识点解析整理
 
 
 ### CoffeeScript
@@ -592,13 +579,6 @@ free-resources
 
 * [Scheme 入门教程](http://deathking.github.io/yast-cn/) (《Yet Another Scheme Tutorial》中文版)
 * [算法语言Scheme修订<sup>6</sup>报告](https://r6rs.mrliu.org)（R<sup>6</sup>RS简体中文翻译）
-
-
-### Shell
-
-* [Shell 编程基础](http://wiki.ubuntu.org.cn/Shell%E7%BC%96%E7%A8%8B%E5%9F%BA%E7%A1%80)
-* [Shell 脚本编程30分钟入门](https://github.com/qinjx/30min_guides/blob/master/shell.md)
-* [The Linux Command Line 中文版](http://billie66.github.io/TLCL/book/zh)
 
 
 ### Swift
