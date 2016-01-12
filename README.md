@@ -631,3 +631,5 @@ free-resources
 
 * [移动APP自动化测试优秀框架Appium API Reference V1.2.0 CN](http://appium.io/slate/cn/v1.2.0/)
 
+### 面试
+* [码农翻墙去美帝 —— 系统设计准备](http://blog.sina.com.cn/s/blog_687bf5050102vawl.html)
